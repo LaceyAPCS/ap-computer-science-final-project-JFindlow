@@ -1,0 +1,22 @@
+    In the calculate income program there is a lot of calculating involved because of the tax aspect. To get started, the
+program has to ask the user some base questions to see what their tax brackets are such as their marital status and what
+their annual income is. In my program I created two different if statements for single and married status. Within those if
+statements I first calculated for social security tax by multiplying the total by 6.2%, but that number could not exceed 
+$7968 so I used an embedded if statement to make sure the number didn't exceed that. The medicare tax was calculated by 
+multiplying the total by 1.45% plus an additional 0.9% if the total exceeded $250000 for married and $200000 if single.
+    The tax brackets was where things got more complicated. Understanding how the brackets worked and how deductions were 
+taken out was too complicated at the start so I didn't include deductions, but after some time it did get added in. I used
+two different websites to get the federal and state income taxes/deductions. For the federal income tax I used Forbes at 
+https://www.forbes.com/sites/kellyphillipserb/2016/10/25/irs-announces-2017-tax-rates-standard-deductions-exemption-
+amounts-and-more/#383b9fe57017 and for the state income tax I used http://www.state.nj.us/treasury/taxation/pdf/current/
+njtaxratesch.pdf, both websites gave me all the information I needed to successfully create a tax calculator. I created
+the tax brackets in the program by using if and else if statements to ensure the user's taxes was being calculated
+in the correct federal and state brackets. The total after taxes was calculated by simply subtracting all the tax totals
+from the total that the user gave alexa in the beginning. All the information that was calculated for is told to the user
+by just using the variables themselves along with some typed words.
+    After the tax information is finished, the program asks the user if they would like to save any amount of money. The
+program will then listen for the user to say the amount they want saved. It will then follow up with a question about how
+many weeks you would like to save this amount in. The program then calculates how much you would need to save on each 
+biweekly paycheck to get the amount in the desired weeks. Then, the calculate income program then thanks you for using it.
+I decided to put this thanking line at the end because it wraps up everything nicely and doesn't end the program with a
+cliffhanger.
